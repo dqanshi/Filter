@@ -10,8 +10,8 @@ environ["SESSION"] = sample_info.SESSION
 environ["API_ID"] = str(sample_info.API_ID)  # Convert to string for environ
 environ["API_HASH"] = sample_info.API_HASH
 environ["BOT_TOKEN"] = sample_info.BOT_TOKEN
-environ["AUTH_CHANNEL"] = sample_info.AUTH_CHANNEL
-environ["ADMINS"] = sample_info.ADMINS
+environ["AUTH_CHANNEL"] = str(sample_info.AUTH_CHANNEL)
+environ["ADMINS"] = str(sample_info.ADMINS)
 
 # Now access them using environ
 SESSION = environ.get("SESSION")
