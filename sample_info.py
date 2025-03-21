@@ -1,8 +1,8 @@
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
+API_ID = 14580130
+API_HASH = 'd1018b33de95b18c5afb321ad0dcee0b'
 BOT_TOKEN = '2056082768:AAH5sxP1sm4MK7-uzxIpJWkqQ99m9oivHRI'
 USERBOT_STRING_SESSION = ''
 
@@ -14,12 +14,12 @@ USE_CAPTION_FILTER = False
 ADMINS = [6248131995, 'admin123', 1205330781]
 CHANNELS = [-10012345678, -100987654321, 'channelusername']
 AUTH_USERS = []
-AUTH_CHANNEL = None
+AUTH_CHANNEL = -1002518435255
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://Dqanshi:an12if..@cluster0.2cvux.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_NAME = 'Telegram'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
-
-
+DELETE_TIME = 10
+LOG_CHANNEL = -1002423841190
