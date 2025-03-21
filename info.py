@@ -3,6 +3,23 @@ import re
 
 from os import environ
 
+import sample_info  # Import the renamed file
+
+# Manually set environment variables from sample_info.py
+environ["SESSION"] = sample_info.SESSION
+environ["API_ID"] = str(sample_info.API_ID)  # Convert to string for environ
+environ["API_HASH"] = sample_info.API_HASH
+environ["BOT_TOKEN"] = sample_info.BOT_TOKEN
+
+# Now access them using environ
+SESSION = environ.get("SESSION")
+API_ID = int(environ.get("API_ID", 0))  # Convert back to int
+API_HASH = environ.get("API_HASH")
+BOT_TOKEN = environ.get("BOT_TOKEN")
+
+print("API_ID:", API_ID)
+print("BOT_TOKEN:", BOT_TOKEN)
+
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
