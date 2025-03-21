@@ -1,8 +1,8 @@
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
+API_ID = 14580130
+API_HASH = 'd1018b33de95b18c5afb321ad0dcee0b'
 BOT_TOKEN = '2056082768:AAH5sxP1sm4MK7-uzxIpJWkqQ99m9oivHRI'
 USERBOT_STRING_SESSION = ''
 START_IMAGE_URL = 'https://files.catbox.moe/ccg6yt.jpg'
