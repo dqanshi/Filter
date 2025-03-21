@@ -1,6 +1,6 @@
 from asyncio.log import logger
 import re
-from os import environ
+
 
 from decouple import config
 
