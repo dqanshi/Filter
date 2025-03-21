@@ -5,7 +5,7 @@ API_ID = 12345
 API_HASH = '0123456789abcdef0123456789abcdef'
 BOT_TOKEN = '2056082768:AAH5sxP1sm4MK7-uzxIpJWkqQ99m9oivHRI'
 USERBOT_STRING_SESSION = ''
-
+START_IMAGE_URL = 'https://files.catbox.moe/ccg6yt.jpg'
 # Bot settings
 CACHE_TIME = 300
 USE_CAPTION_FILTER = False
