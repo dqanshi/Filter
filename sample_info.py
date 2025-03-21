@@ -14,7 +14,7 @@ USE_CAPTION_FILTER = False
 ADMINS = [6248131995, 'admin123', 1205330781]
 CHANNELS = [-1001759355707, 'danger_bots']
 AUTH_USERS = []
-AUTH_CHANNEL = None
+AUTH_CHANNEL = 2518435255
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://Dqanshi:an12if..@cluster0.2cvux.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
