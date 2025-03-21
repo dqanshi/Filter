@@ -1,8 +1,7 @@
 from asyncio.log import logger
 import re
 
-
-from decouple import config
+from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
