@@ -1,5 +1,6 @@
 import logging
 import logging.config
+import time  # Add this line
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
@@ -29,6 +30,7 @@ class Bot(Client):
         )
 
     async def start(self):
+        logging.info(f"Current system time: {time.ctime()}")  # Add this line
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
@@ -50,4 +52,3 @@ class Bot(Client):
 
 app = Bot()
 app.run()
-
